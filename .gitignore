@@ -2,5 +2,5 @@
 .env
 # env file
 movie_venv
-
 model
+data
