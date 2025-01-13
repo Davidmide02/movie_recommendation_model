@@ -4,3 +4,6 @@
 movie_venv
 model
 data
+
+model/similarity.pkl
+model/movie_list.pkl
