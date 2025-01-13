@@ -4,8 +4,8 @@ FROM python:3.12.4-slim
 
 WORKDIR /app
 
-COPY ["requirements.txt", "app.py","model/similarity", "./" ]
-COPY ["requirements.txt", "app.py","model/movie_list", "./" ]
+COPY ["requirements.txt", "app.py","model/similarity", "model/movie_list","./" ]
+
 
 # install dependencies on the system vot
 RUN pip install -r requirements.txt

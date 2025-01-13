@@ -2,7 +2,7 @@
 .env
 # env file
 movie_venv
-model
+# model
 data
 
 model/similarity.pkl
