@@ -4,10 +4,11 @@ FROM python:3.12.4-slim
 
 WORKDIR /app
 
-COPY ["midrequirement.txt", "app.py","model_svm.bin", "./" ]
+COPY ["requirements.txt", "app.py","model/similarity", "./" ]
+COPY ["requirements.txt", "app.py","model/movie_list", "./" ]
 
 # install dependencies on the system vot
-RUN pip install -r midrequirement.txt
+RUN pip install -r requirements.txt
 
 EXPOSE 8501
 
