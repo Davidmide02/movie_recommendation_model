@@ -73,7 +73,7 @@ pip install -r requirements.txt
 1. Clone this repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Davidmide02/movie_recommendation_model.git
 ```
 
 2. Navigate to the project directory:
