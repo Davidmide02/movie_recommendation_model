@@ -116,6 +116,27 @@ To reproduce this project, kindly follow the instructions/comments  in the [note
 
 ## Deployemnt 
 Check demo of the model [here](./assest/demo.mp4)
+Using the [Dockerfile](Dockerfile) 
+
+1. Build the dockerImage
+```bash
+docker build image-name .
+```
+note the **image-name** is want you want the name of the image to be 
+If the image is successfull built you should have something similar to the image below
+You access it in port localhost:3000 
+
+![Build](./assest/build_docker.png)
+
+2. Run the docker image you just built  and map the exposed port to port 3000 of the host
+```bash
+docker run -p 3000:8501 image-name .
+```
+If the image is successfull run you should have something similar to the image below
+You should be able to access the service on port 3000 on your localhost 127.0.0.1:3000
+![Run](./assest/run_docker.png)
+
+- [Dockerfile](Dockerfile)
 
 ## Limitations
 
