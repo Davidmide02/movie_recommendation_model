@@ -36,13 +36,14 @@ Download the two available datasets there
 Dataset is well prepared, without duplicates and null values. You can explore detailed information in [notebook](notebook.ipynb)
 
 ## Model training
-I started with 3 classifiers used for prediction - linear regression and 2 tree-based:
+
 - Cosine_similarity
-- KNN
+
 
 ## Python scripts for data pre-processing and training
 - [notebook](notebook.ipynb)
-- [model](notebook.ipynb)
+- [train_model.py](train_model.py)
+Note : running of any of the script above will pre-process the dataset automaically and train the model.
 
 ## Prerequisites
 
