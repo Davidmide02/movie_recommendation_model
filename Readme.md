@@ -6,7 +6,7 @@ Author : Adenusi David O.
 ![Movie](./assest/image.jpg)
 
 ## Problem
-At the start of movie streaming platforms they struggle to keep user engagement to improve it and continually keep user engaged with content base on their interactipon on the platform.
+At the start of movie streaming platforms they struggle to keep user engagement to improve it and continually keep user engaged with content base on their interactipon on the platform. Recommendation systems are crucial in today’s digital world, enhancing user experience on platforms like Netflix, Amazon Prime, and YouTube by suggesting relevant content.
 
 ## Overview
 
